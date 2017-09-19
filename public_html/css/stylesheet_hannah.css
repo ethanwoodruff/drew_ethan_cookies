@@ -1,0 +1,35 @@
+/* --- Color Schemes --- */
+
+/* #434143- gray
+#1E2736- navy
+#F2B279- cream
+#F27457- orange
+#A64E4E- pink*/
+
+
+
+
+
+
+
+
+/* Table of Contents */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #434143;
+  font-family: arial,sans-serif;}
+
+nav li {
+  float: left;}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+
+nav li a:hover {background-color: #111;}
