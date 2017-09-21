@@ -1,35 +1,52 @@
 /* --- Color Schemes --- */
 
-/* #434143- gray
+/*
+#434143- gray
 #1E2736- navy
 #F2B279- cream
 #F27457- orange
-#A64E4E- pink*/
+#A64E4E- pink
+#ffffff- white
+*/
 
 
+footer {font-family:verdana,arial,serif; border-style:solid; 
+        border-width:5px; border-color:#F27457; padding:20px;
+        background-color: #434143;}
+
+body {background-color: #F2B279;}
+
+.logoimg {float:left; padding-top: 10px;}
+
+.cookieimg {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid; border-width:5px; border-color:#F27457;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+header {text-align:center; font-family:Verdana,Georgia,serif;
+        text-decoration: underline; 
+        float:center; background-color:#A64E4E;
+        height:100px; padding-bottom:20px; padding-left:20px; 
+        border-style:dotted; border-color:#1E2736;border-width:10px;}
+
+p {font-family:arial,Georgia,serif;}
+
+h3 {text-align:left; font-family:Verdana,Georgia,serif;
+        text-decoration: underline; color:#1E2736;}
+
+div {background-color:#A64E4E;}
+
+/* --- Nav Bar --- */
+nav ul {margin: 0; padding: 0; list-style-type: none;
+        overflow: hidden;
+        background-color: #A64E4E;
+        font-family: verdana,arial,sans-serif;}
 
 
+nav li a {display: block;
+          color: black;
+          text-align: center;
+          padding:2px;
+          text-decoration: none;}
 
-
-
-
-/* Table of Contents */
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #434143;
-  font-family: arial,sans-serif;}
-
-nav li {
-  float: left;}
-
-nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;}
-
-nav li a:hover {background-color: #111;}
+nav li a:hover {background-color: #434143; color: white;}
