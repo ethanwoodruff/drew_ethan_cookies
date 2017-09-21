@@ -11,10 +11,10 @@
 
 
 footer {font-family:verdana,arial,serif; border-style:solid; 
-        border-width:5px; border-color:#F27457; padding:20px;
-        background-color: #434143;}
+        border-width:5px; border-color:#F27457;
+        background-color: #434143; padding:17px; font-weight: bold;}
 
-body {background-color: #F2B279;}
+body {background-color: #F2B279; padding:10px;}
 
 .logoimg {float:left; padding-top: 10px;}
 
@@ -31,10 +31,26 @@ header {text-align:center; font-family:Verdana,Georgia,serif;
 
 p {font-family:arial,Georgia,serif;}
 
+.yum1 {float:left; color:#1E2736; font-weight: bold; 
+        margin-left:10px; padding-left: 20px; font-size:40px;
+      /* found rotation example on w3schools */
+        -ms-transform: rotate(8deg); /* IE 9 */
+        -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+        transform: rotate(8deg);
+      /* found rotation example on w3schools */}
+.yum2 {float:right; color:#1E2736; font-weight: bold;
+        margin-right:10px; padding-right: 20px; font-size:40px;
+      /* found rotation example on w3schools */
+       -ms-transform: rotate(-8deg); /* IE 9 */
+        -webkit-transform: rotate(-8deg); /* Chrome, Safari, Opera */
+        transform: rotate(-8deg);
+      /* found rotation example on w3schools */}
+
 h3 {text-align:left; font-family:Verdana,Georgia,serif;
         text-decoration: underline; color:#1E2736;}
 
-div {background-color:#A64E4E;}
+div {background-color:#F27457; padding:15px; 
+      border-style:dotted; border-color:#1E2736;border-width:5px;}
 
 /* --- Nav Bar --- */
 nav ul {margin: 0; padding: 0; list-style-type: none;
