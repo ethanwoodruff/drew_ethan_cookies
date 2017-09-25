@@ -1,4 +1,4 @@
-/* --- Color Schemes --- */
+/* --- Color Scheme --- */
 
 /*
 #434143- gray
@@ -9,27 +9,24 @@
 #ffffff- white
 */
 
-
+/* --- Footer --- */
 footer {font-family:verdana,arial,serif; border-style:solid; 
         border-width:5px; border-color:#F27457;
         background-color: #434143; padding:17px; font-weight: bold;}
 
-body {background-color: #F2B279; padding:10px;}
-
-.logoimg {float:left; padding-top: 10px;}
-
-.cookieimg {display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style:solid; border-width:5px; border-color:#F27457;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+/* --- Header --- */
+#logoimg {float:left; padding-top: 10px; width:130px; height:100px;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 
 header {text-align:center; font-family:Verdana,Georgia,serif;
-        text-decoration: underline; 
-        float:center; background-color:#A64E4E;
+        text-decoration: underline; background-color:#A64E4E;
         height:100px; padding-bottom:20px; padding-left:20px; 
         border-style:dotted; border-color:#1E2736;border-width:10px;}
 
-p {font-family:arial,Georgia,serif;}
+/* --- Index page --- */
+.cookieimg {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid; border-width:5px; border-color:#F27457;} 
 
 .yum1 {float:left; color:#1E2736; font-weight: bold; 
         margin-left:10px; padding-left: 20px; font-size:40px;
@@ -46,11 +43,27 @@ p {font-family:arial,Georgia,serif;}
         transform: rotate(-8deg);
       /* found rotation example on w3schools */}
 
+/* --- Body --- */
+body {background-color: #F2B279; padding:10px;}
+
 h3 {text-align:left; font-family:Verdana,Georgia,serif;
         text-decoration: underline; color:#1E2736;}
 
+p {font-family:arial,Georgia,serif;}
+
 div {background-color:#F27457; padding:15px; 
       border-style:dotted; border-color:#1E2736;border-width:5px;}
+
+/* --- Table --- */
+table {background-color:#1E2736; border-style:solid; 
+    border-color:#F27457; border-width:3px; padding:5px;
+    margin-left: auto; margin-right: auto;}
+
+tr {background-color:#A64E4E; font-family:Verdana,Georgia,serif;}
+
+th {background-color:#A64E4E;text-align:center;}
+
+td {text-align:center;}
 
 /* --- Nav Bar --- */
 nav ul {margin: 0; padding: 0; list-style-type: none;
@@ -63,6 +76,8 @@ nav li a {display: block;
           color: black;
           text-align: center;
           padding:2px;
-          text-decoration: none;}
+          text-decoration: none;
+          border-style:solid; border-color:#434143; border-width:3px;}
 
 nav li a:hover {background-color: #434143; color: white;}
+nav li a:visited {color:#F27457;}
