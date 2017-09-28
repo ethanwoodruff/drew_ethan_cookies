@@ -1,54 +1,89 @@
 ﻿<!--Ethan Woodruff-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Mama G's Cookies</title>
-  <link rel="stylesheet" type="text/css" href="css/keegan_lamparek.css">
+  <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Main CSS styles for Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Optional theme add-on -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css\custom_bootstrap.css">
 </head>
+
 <body>
-  <header>
-    <h1>Mama G's Cookies</h1>
-  </header>
-  <nav>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="signup.html">Sign Up</a>
-      </li>
-      <li>
-        <a href="login.html">Login</a>
-      </li>
-      <li>
-        <a href="aboutus.html">About Us</a>
-      </li>
-      <li>
-        <a href="recipes.html">Recipes</a>
-      </li>
-      <li>
-        <a href="promotions.html">Promotions</a>
-      </li>
-      <li>
-        <a href="contactinfo.html">Contact Info</a>
-      </li>
-      <li>
-        <a href="itemsforsale.html">Items for Sale</a>
-      </li>
-    </ul>
-  </nav>
-  <article>
-    <h2>About Us!</h2>
-    <p>Our amazing company was founded at the dawn of the internet in 1985. We had the idea of bringing the best cookie recipes
-      to your house. Our goal is to give you the best and most detailed recipes, so you can make the best cookies on Earth.
-      We have the BEST CHOCOLATE CHIP COOKIES ON THIS PLANET!!! We also have a lot of other great options such as oatmeal,
-      chocolate chunk, raisin, sugar, and white chocolate.</p>
-    <p>Celebrate our history today by supporting our company! Buy some cookies today!</p>
-  </article>
-  <footer>
-    <p>An Ethan Drew Corporation</p>
-  </footer>
+   <!-- Navigation Bar -->
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+            aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <!-- Three line "hamburger" icon for the collapsed navigation -->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+          <!-- Title on nav bar -->
+          <a class="navbar-brand" href="#">Mama G's Cookies</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="signup.html">Sign Up</a>
+            </li>
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+            <li class="active">
+              <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+              <a href="recipes.html">Recipes</a>
+            </li>
+            <li>
+              <a href="promotions.html">Promotions</a>
+            </li>
+            <li>
+              <a href="contactinfo.html">Contact Info</a>
+            </li>
+            <li>
+              <a href="itemsforsale.html">Items for Sale</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+        <!-- This container moves below the menu bar -->
+        <div class="below_menu_container">
+            <header>
+                <h1>Mama G's Cookies</h1>
+              </header>
+              <article>
+                <h2>About Us!</h2>
+                <p>Our amazing company was founded at the dawn of the internet in 1985. We had the idea of bringing the best cookie recipes
+                  to your house. Our goal is to give you the best and most detailed recipes, so you can make the best cookies on Earth.
+                  We have the BEST CHOCOLATE CHIP COOKIES ON THIS PLANET!!! We also have a lot of other great options such as oatmeal,
+                  chocolate chunk, raisin, sugar, and white chocolate.</p>
+                <p>Celebrate our history today by supporting our company! Buy some cookies today!</p>
+              </article>
+              <footer>
+                <p>An Ethan Drew Corporation</p>
+              </footer>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
