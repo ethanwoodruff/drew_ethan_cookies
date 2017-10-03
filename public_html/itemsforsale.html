@@ -2,61 +2,101 @@
 <html lang="en">
 <head> 
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/stylesheet_hannah.css">
-<title>Items For Sale</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<title>Mama G's Cookies Home</title>
 </head>
 
-<body>
+  <body>
 
-<header> <img id="logoimg" src="images/newmama.png" alt="Mama G Cookies"/> <h1>Mama G's Cookies</h1></header>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
 
-<br>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="login.html">Login</a></li>
-			<li><a href="signup.html">Sign Up</a></li>
-			<li><a href="aboutus.html">About Us</a></li>
+            <!-- Collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+		<div>
+          <!-- Title on nav bar -->
+          <img id="logoimg" src="images/newmama.png" alt="Mama G Cookies"/>
+          <a class="navbar-brand" href="#">Mama G's Cookies</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
 			<li><a href="recipes.html">Recipes</a></li>
 			<li><a href="promotions.html">Promotions</a></li>
 			<li><a href="contactinfo.html">Contact Info</a></li>
 			<li><a href="itemsforsale.html">Items for Sale</a></li>
-		</ul>
-	</nav>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+<header class="below_menu_container">  <h1>Mama G's Cookies</h1></header>
+
+<div class="jumbotron container jumbostyle">
+  <h3><img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/> <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/> <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/>Big Sale for October Only <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/> <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/> <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/></h3>
+  <p>Check out our Promotions page to grab a sneak peek into the sale for October!</p>
+  <p><a class="btn btn-default" href="promotions.html">Go To Promotions</a></p>
+</div>
 
 <br>
 
-<div>
-<h3>Mama G Items for Sale</h3> 
+<div class="col-xs-6">
+<h3>Mama G Items for Sale <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/></h3> 
 <p> We cater items that anyone would need while cooking our products. How can we expect you to bake without looking the part? From Mama G aprons to our non-stick cookie sheets, we have everything you might need to bake. Buy our products today and get a free recipe pamphlet!</p>
 </div>
 
 <br>
 
-<table>
-	<thead>
-	   <tr>
-		<th>Aprons</th>
-		<th>Spatulas</th>
-		<th>Cookie Sheets</th>
-		<th>Baking Pots</th>
-		<th>Oven Mitts</th>
-	   </tr>
-	</thead>
-
-	<tbody>
-	   <tr>
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th>Aprons</th>
+	  <th>Spatulas</th>
+	  <th>Cookie Sheets</th>
+	  <th>Baking Pots</th>
+	  <th>Oven Mitts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
 		<td>$35.00</td>
 		<td>$7.50</td>
 		<td>$10.00</td>
 		<td>$20.00</td>
 		<td>$5.50</td>
-	   </tr>
-	</tbody>
-</table>
+    </tr>
+  </tbody>
+</table> 
+
 
 <br>
-<footer> <img style="padding-left:40px;" src="images/mamag.png" alt="Original Mama G Logo" width="70" height="70"/> An Ethan Drew Corporation&trade;</footer>
+<footer> <img style="padding-left:40px;" src="images/footer.png" alt="
+Original Mama G Logo"/></footer>
+
+<!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>

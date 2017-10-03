@@ -2,62 +2,124 @@
 <html lang="en">
 <head> 
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/stylesheet_hannah.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/custom.css">
 <title>Mama G's Cookies</title>
 </head>
 
 <body>
 
-<header> <img id="logoimg" src="images/newmama.png" alt="Mama G Cookies"/> <h1>Mama G's Cookies</h1></header>
+ <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
 
-<br>
+            <!-- Collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="login.html">Login</a></li>
-			<li><a href="signup.html">Sign Up</a></li>
-			<li><a href="aboutus.html">About Us</a></li>
+		<div>
+          <!-- Title on nav bar -->
+          <img id="logoimg" src="images/newmama.png" alt="Mama G Cookies"/>
+          <a class="navbar-brand" href="#">Mama G's Cookies</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
 			<li><a href="recipes.html">Recipes</a></li>
 			<li><a href="promotions.html">Promotions</a></li>
 			<li><a href="contactinfo.html">Contact Info</a></li>
 			<li><a href="itemsforsale.html">Items for Sale</a></li>
-		</ul>
-	</nav>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<br>
+<header class="below_menu_container">  <h1>Mama G's Cookies</h1></header>
 
-<div>
-<h3>Sign Up</h3>
-<p>Sign Up and get our newsletter, cookie recommendations, recipes, and more!</p>
+<div class="jumbotron container jumbostyle">
+  <h3><img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/> <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/> <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/>Big Sale for October Only <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/> <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/> <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/></h3>
+  <p>Check out our Promotions page to grab a sneak peek into the sale for October!</p>
+  <p><a class="btn btn-default" href="promotions.html">Go To Promotions</a></p>
 </div>
 
 <br>
 
+<div class="col-xs-6">
+<h3>Sign Up <img class="cookie" src="images/newcookie.png" alt="Cookie Sticker"/></h3>
+<p>Sign up and get our newsletter, cookie recommendations, recipes, and more! It's only $3.99 per month. Sign up to the right and get your first month free.</p>
+  <div class="alert alert-dismissible alert-danger">
+    <button class="close" type="button" data-dismiss="alert">&times;</button>
+    <strong>Attention!</strong> There can be only one account per customer. Thank you.
+  </div>
+</div>
+
+<br>
+
+<div class="col-xs-6">
 <fieldset> <legend>Sign Up</legend>
-	<form method="post" action="index.html" >
-		<div>Username: <input type="text" size="20" name="username"/></div>
+	<form method="post" action="index.html" class="form-horizontal">
+		<div class="form-group">
+      <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+      <div class="col-lg-10">
+        <input class="form-control" id="inputEmail" type="text" placeholder="Email">
+      </div>
+    	</div>
+
+    <div class="form-group">
+      <label class="col-lg-2 control-label" for="inputEmail">Username</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" id="textArea" rows="1"></textarea>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-lg-2 control-label" for="inputPassword">Password</label>
+      <div class="col-lg-10">
+        <input class="form-control" id="inputPassword" type="password" placeholder="Password">
+      </div>
+    </div>
+
+		<div><a class="btn btn-warning" href="#">Warning</a>  To ensure password security, please select a password with at least 8 characters and a number </div>
 
 		<br>
 
-		<div>Password: <input type="text" size="20" name="password"/></div>
-
-		<br>
-
-		<div>Email: <input type="text" size="30" name="email"/></div>
-
-		<br>
-
-		<input type="submit" value="Sign up"/>
+		<div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+      </div>
 		
 		<br>	
 	</form>
+
 </fieldset>
+</div>
+
 
 <br>
-<footer> <img style="padding-left:40px;" src="images/mamag.png" alt="
-Original Mama G Logo" width="70" height="70"/> An Ethan Drew Corporation
-&trade;</footer>
+<footer> <img style="padding-left:40px;" src="images/footer.png" alt="
+Original Mama G Logo"/> </footer>
+
+
+<!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
