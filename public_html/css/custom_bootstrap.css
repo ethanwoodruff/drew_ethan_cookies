@@ -1,13 +1,44 @@
 .below_menu_container {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .header {
-    padding-right: 50px;
+    text-align: center;
 }
 
-.text {
-    padding-left: 50px;
+.text h2 {
+    text-align: center;
+}
+
+#ulhead {
+    margin-bottom: 15px;
+}
+
+.column {
+    
+    padding: 15px;
+    text-align: center
+}
+
+.alert {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+form {
+    margin-top: 25px;
+}
+
+p {
+    font-size: 16px;
 }
 
 footer {

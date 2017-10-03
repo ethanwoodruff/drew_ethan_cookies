@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/custom_bootstrap.css">
 </head>
+
 <body>
   <!-- Navigation Bar -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -56,22 +57,30 @@
       </div>
     </div>
   </nav>
-
-
   <!-- Main content -->
   <div class="container">
     <!-- This container moves below the menu bar -->
     <div class="below_menu_container">
-      <header>
+      <div class="header col-xs-12 col-sm-12 col-md-6">
         <h1>Mama G's Cookies</h1>
-      </header>
-      <p>Sign Up and get our newsletter and cookie recommendations</p>
+        <img class="img-rounded" src="images/mamacookie.jpg" alt="Cookie Photo">
+      </div>
+      <div class="text col-xs-12 col-sm-12 col-md-6">
+        <h2>Sign Up and get our newsletter and cookie recommendations</h2>
+        <form>
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+        </form>
+        <button type="button" class="btn btn-primary">Submit</button>
+        <div class="alert alert-info"><strong>Important:</strong> We do not sell your email address to anyone!</div>
+      </div>
     </div>
-    <footer>
+    <footer class="footer col-xs-12 col-md-12">
       <p>An Ethan Drew Corporation</p>
     </footer>
   </div>
-
   <!-- Scripts required to make Bootstrap work better. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
