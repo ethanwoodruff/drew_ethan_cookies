@@ -5,53 +5,82 @@
 <head>
   <meta charset="utf-8">
   <title>Mama G's Cookies</title>
-  <link rel="stylesheet" type="text/css" href="css/keegan_lamparek.css">
+  <title>Mama G's Cookies</title>
+  <!-- Main CSS styles for Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Optional theme add-on -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom_bootstrap.css">
 </head>
-
 <body>
-  <header>
-    <h1>Mama G's Cookies</h1>
-
-  </header>
-  <nav>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="signup.html">Sign Up</a>
-      </li>
-      <li>
-        <a href="login.html">Login</a>
-      </li>
-      <li>
-        <a href="aboutus.html">About Us</a>
-      </li>
-      <li>
-        <a href="recipes.html">Recipes</a>
-      </li>
-      <li>
-        <a href="promotions.html">Promotions</a>
-      </li>
-      <li>
-        <a href="contactinfo.html">Contact Info</a>
-      </li>
-      <li>
-        <a href="itemsforsale.html">Items for Sale</a>
-      </li>
-    </ul>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+  
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <!-- Title on nav bar -->
+        <a class="navbar-brand" href="#">Mama G's Cookies</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="signup.html">Sign Up</a>
+          </li>
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+          <li>
+            <a href="aboutus.html">About Us</a>
+          </li>
+          <li>
+            <a href="recipes.html">Recipes</a>
+          </li>
+          <li class="active">
+            <a href="promotions.html">Promotions</a>
+          </li>
+          <li>
+            <a href="contactinfo.html">Contact Info</a>
+          </li>
+          <li>
+            <a href="itemsforsale.html">Items for Sale</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
-  <article>
-    <h2>Sales!</h2>
-    <p>We are having an amazing sale this month on our Mama G's Grannie &#38; Grandpa Apron. It is only $28 for September only!
-    </p>
-    <p>Just think how great you or your grandparents would look in our stylish Mama G's apron.</p>
-    <p>NEW: Pay a monthly subscription of $9.99 for a monthly delivery of two-dozen cookies!</p>
-    <h3>Be sure to check here for new deals each month!</h3>
-  </article>
-  <footer>
-    <p>An Ethan Drew Corporation</p>
-  </footer>
+  <div class="container">
+    <!-- This container moves below the menu bar -->
+    <div class="below_menu_container">
+      <header>
+        <h1>Mama G's Cookies</h1>
+      </header>
+      <article>
+        <h2>Sales!</h2>
+        <p>We are having an amazing sale this month on our Mama G's Grannie &#38; Grandpa Apron. It is only $28 for September
+          only!
+        </p>
+        <p>Just think how great you or your grandparents would look in our stylish Mama G's apron.</p>
+        <p>NEW: Pay a monthly subscription of $9.99 for a monthly delivery of two-dozen cookies!</p>
+        <h3>Be sure to check here for new deals each month!</h3>
+      </article>
+      <footer>
+        <p>An Ethan Drew Corporation</p>
+      </footer>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
